@@ -1,0 +1,23 @@
+{
+  "name": "coursera-nodejs",
+  "version": "1.0.0",
+  "description": "\"Learning nodejs and expressjs framework\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "author": "Arjun Shroff",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
