@@ -7,7 +7,7 @@ dishRouter.use(bodyParser.json());
 
 dishRouter.route('/')
     .all(function (req, res, next) {
-        res.writeHead(200, {'content-type': 'text/html'});
+        res.writeHead(200, {'Content-Type': 'text/plain'});
         next();
     })
     .get(function (req, res, next) {
